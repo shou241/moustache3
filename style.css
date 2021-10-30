@@ -1,0 +1,29 @@
+body{
+    background-size: cover;
+}
+
+#tksnp{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+font-weight: bold;
+}
+
+#main-head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+canvas{
+    animation-name: Filter_of_clown_nose;
+    animation-duration: 10s;
+    animation-iteration-count:infinite ;
+}
+@keyframes Filter_of_clown_nose{
+    from{box-shadow: 10px 10px 100px coral;}
+
+    to{box-shadow: 10px 10px 100px aqua;}
+
+    
+}
+
